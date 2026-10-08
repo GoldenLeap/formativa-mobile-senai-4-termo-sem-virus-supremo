@@ -1,0 +1,1895 @@
+{
+  "projectId": "mapa-locais-flutter",
+  "checkedAt": "2026-10-08T18:39:23.190Z",
+  "database": {
+    "httpStatus": 200,
+    "body": {
+      "name": "projects/mapa-locais-flutter/databases/(default)",
+      "uid": "70c494b7-f046-484c-8329-8cbe1df3bc01",
+      "createTime": "2026-10-08T17:32:13.613010Z",
+      "updateTime": "2026-10-08T17:32:13.613010Z",
+      "locationId": "nam5",
+      "type": "FIRESTORE_NATIVE",
+      "concurrencyMode": "PESSIMISTIC",
+      "versionRetentionPeriod": "3600s",
+      "earliestVersionTime": "2026-10-08T17:39:22.107311Z",
+      "appEngineIntegrationMode": "DISABLED",
+      "keyPrefix": "s",
+      "pointInTimeRecoveryEnablement": "POINT_IN_TIME_RECOVERY_DISABLED",
+      "deleteProtectionState": "DELETE_PROTECTION_DISABLED",
+      "databaseEdition": "STANDARD",
+      "freeTier": true,
+      "realtimeUpdatesMode": "REALTIME_UPDATES_MODE_ENABLED",
+      "etag": "ILrX9uaIq5cDMJTHhPH5qpcD"
+    }
+  },
+  "collection": {
+    "httpStatus": 200,
+    "body": {
+      "documents": [
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-academia-movimento",
+          "fields": {
+            "descricao": {
+              "stringValue": "Espaço para musculação, aulas em grupo e treinos funcionais."
+            },
+            "mapY": {
+              "doubleValue": 0.17
+            },
+            "cidade": {
+              "stringValue": "Campinas"
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "avaliacao": {
+              "doubleValue": 4.6
+            },
+            "distancia": {
+              "integerValue": "1"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "totalAvaliacoes": {
+              "integerValue": "67"
+            },
+            "endereco": {
+              "stringValue": "Rua do Sol, 120"
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0201"
+            },
+            "nome": {
+              "stringValue": "Academia Movimento"
+            },
+            "mapX": {
+              "doubleValue": 0.17
+            }
+          },
+          "createTime": "2026-10-08T18:37:13.758523Z",
+          "updateTime": "2026-10-08T18:37:13.758523Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-cafe-da-praca",
+          "fields": {
+            "categoria": {
+              "stringValue": "Café"
+            },
+            "descricao": {
+              "stringValue": "Café fresco, bolos e lanches para uma pausa na rotina."
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapX": {
+              "doubleValue": 0.82
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "nome": {
+              "stringValue": "Café da Praça"
+            },
+            "mapY": {
+              "doubleValue": 0.15
+            },
+            "totalAvaliacoes": {
+              "integerValue": "31"
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0202"
+            },
+            "endereco": {
+              "stringValue": "Avenida da Praça, 45"
+            },
+            "horario": {
+              "stringValue": "08:00 - 20:00"
+            },
+            "distancia": {
+              "doubleValue": 1.3
+            },
+            "avaliacao": {
+              "doubleValue": 4.7
+            },
+            "cidade": {
+              "stringValue": "Campinas"
+            }
+          },
+          "createTime": "2026-10-08T18:37:14.053518Z",
+          "updateTime": "2026-10-08T18:37:14.053518Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-parque-das-palmeiras",
+          "fields": {
+            "mapX": {
+              "doubleValue": 0.22
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "distancia": {
+              "doubleValue": 2.1
+            },
+            "avaliacao": {
+              "doubleValue": 4.8
+            },
+            "nome": {
+              "stringValue": "Parque das Palmeiras"
+            },
+            "horario": {
+              "stringValue": "06:00 - 18:00"
+            },
+            "mapY": {
+              "doubleValue": 0.48
+            },
+            "categoria": {
+              "stringValue": "Parque"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "endereco": {
+              "stringValue": "Rua das Palmeiras, 200"
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0203"
+            },
+            "cidade": {
+              "stringValue": "Campinas"
+            },
+            "descricao": {
+              "stringValue": "Caminhos arborizados e área de descanso ao ar livre."
+            },
+            "totalAvaliacoes": {
+              "integerValue": "112"
+            }
+          },
+          "createTime": "2026-10-08T18:37:14.690056Z",
+          "updateTime": "2026-10-08T18:37:14.690056Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-restaurante-da-vila",
+          "fields": {
+            "mapX": {
+              "doubleValue": 0.73
+            },
+            "cidade": {
+              "stringValue": "Campinas"
+            },
+            "distancia": {
+              "doubleValue": 2.8
+            },
+            "avaliacao": {
+              "doubleValue": 4.5
+            },
+            "nome": {
+              "stringValue": "Restaurante da Vila"
+            },
+            "horario": {
+              "stringValue": "11:00 - 22:00"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0204"
+            },
+            "endereco": {
+              "stringValue": "Rua da Vila, 88"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "49"
+            },
+            "descricao": {
+              "stringValue": "Comida caseira e pratos do dia em ambiente acolhedor."
+            },
+            "mapY": {
+              "doubleValue": 0.5
+            },
+            "categoria": {
+              "stringValue": "Restaurante"
+            }
+          },
+          "createTime": "2026-10-08T18:37:14.986619Z",
+          "updateTime": "2026-10-08T18:37:14.986619Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-academia-energia",
+          "fields": {
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "55"
+            },
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "mapX": {
+              "doubleValue": 0.17
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "descricao": {
+              "stringValue": "Musculação e aulas coletivas com orientação para iniciantes."
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0301"
+            },
+            "endereco": {
+              "stringValue": "Rua das Acácias, 120"
+            },
+            "nome": {
+              "stringValue": "Academia Energia"
+            },
+            "mapY": {
+              "doubleValue": 0.17
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "avaliacao": {
+              "doubleValue": 4.7
+            },
+            "distancia": {
+              "doubleValue": 0.9
+            }
+          },
+          "createTime": "2026-10-08T18:37:15.660574Z",
+          "updateTime": "2026-10-08T18:37:15.660574Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-cafe-mineiro",
+          "fields": {
+            "totalAvaliacoes": {
+              "integerValue": "37"
+            },
+            "endereco": {
+              "stringValue": "Rua da Serra, 45"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0302"
+            },
+            "distancia": {
+              "doubleValue": 1.2
+            },
+            "avaliacao": {
+              "doubleValue": 4.8
+            },
+            "mapY": {
+              "doubleValue": 0.15
+            },
+            "nome": {
+              "stringValue": "Café Mineiro"
+            },
+            "mapX": {
+              "doubleValue": 0.82
+            },
+            "categoria": {
+              "stringValue": "Café"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "descricao": {
+              "stringValue": "Café, pão de queijo e lanches preparados na hora."
+            },
+            "horario": {
+              "stringValue": "08:00 - 20:00"
+            }
+          },
+          "createTime": "2026-10-08T18:37:15.914337Z",
+          "updateTime": "2026-10-08T18:37:15.914337Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-parque-do-lago",
+          "fields": {
+            "distancia": {
+              "doubleValue": 1.6
+            },
+            "avaliacao": {
+              "doubleValue": 4.9
+            },
+            "mapY": {
+              "doubleValue": 0.48
+            },
+            "horario": {
+              "stringValue": "06:00 - 18:00"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "descricao": {
+              "stringValue": "Área verde com lago, caminhos de passeio e bancos para descansar."
+            },
+            "totalAvaliacoes": {
+              "integerValue": "143"
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "categoria": {
+              "stringValue": "Parque"
+            },
+            "mapX": {
+              "doubleValue": 0.22
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "nome": {
+              "stringValue": "Parque do Lago"
+            },
+            "endereco": {
+              "stringValue": "Avenida do Lago, 200"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0303"
+            }
+          },
+          "createTime": "2026-10-08T18:37:16.577649Z",
+          "updateTime": "2026-10-08T18:37:16.577649Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-restaurante-da-praca",
+          "fields": {
+            "mapY": {
+              "doubleValue": 0.5
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "totalAvaliacoes": {
+              "integerValue": "62"
+            },
+            "categoria": {
+              "stringValue": "Restaurante"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "descricao": {
+              "stringValue": "Pratos caseiros e opções para o almoço e o jantar."
+            },
+            "horario": {
+              "stringValue": "11:00 - 22:00"
+            },
+            "endereco": {
+              "stringValue": "Rua da Praça, 88"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0304"
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "mapX": {
+              "doubleValue": 0.73
+            },
+            "avaliacao": {
+              "doubleValue": 4.4
+            },
+            "distancia": {
+              "doubleValue": 2.2
+            },
+            "nome": {
+              "stringValue": "Restaurante da Praça"
+            }
+          },
+          "createTime": "2026-10-08T18:37:16.859083Z",
+          "updateTime": "2026-10-08T18:37:16.859083Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-academia-fitness",
+          "fields": {
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0101"
+            },
+            "endereco": {
+              "stringValue": "Rua das Flores, 120"
+            },
+            "nome": {
+              "stringValue": "Academia Fitness"
+            },
+            "avaliacao": {
+              "doubleValue": 4.8
+            },
+            "distancia": {
+              "doubleValue": 1.2
+            },
+            "mapX": {
+              "doubleValue": 0.17
+            },
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "mapY": {
+              "doubleValue": 0.17
+            },
+            "totalAvaliacoes": {
+              "integerValue": "124"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "descricao": {
+              "stringValue": "Academia completa com musculação, funcional, aulas coletivas e personal trainer. Ambiente moderno e bem equipado."
+            },
+            "favorito": {
+              "booleanValue": false
+            }
+          },
+          "createTime": "2026-10-08T18:37:09.074511Z",
+          "updateTime": "2026-10-08T18:37:09.074511Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-body-center",
+          "fields": {
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "78"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapY": {
+              "doubleValue": 0.48
+            },
+            "descricao": {
+              "stringValue": "Musculação, alongamento e aulas em grupo para diferentes níveis de treino."
+            },
+            "nome": {
+              "stringValue": "Body Center"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "mapX": {
+              "doubleValue": 0.22
+            },
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0103"
+            },
+            "endereco": {
+              "stringValue": "Rua dos Pinheiros, 310"
+            },
+            "avaliacao": {
+              "doubleValue": 4.3
+            },
+            "distancia": {
+              "doubleValue": 3.1
+            }
+          },
+          "createTime": "2026-10-08T18:37:10.017685Z",
+          "updateTime": "2026-10-08T18:37:10.017685Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-cafe-da-esquina",
+          "fields": {
+            "nome": {
+              "stringValue": "Café da Esquina"
+            },
+            "descricao": {
+              "stringValue": "Cafés, lanches e mesas para uma pausa durante o dia."
+            },
+            "horario": {
+              "stringValue": "08:00 - 20:00"
+            },
+            "mapX": {
+              "doubleValue": 0.83
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "categoria": {
+              "stringValue": "Café"
+            },
+            "endereco": {
+              "stringValue": "Rua dos Pinheiros, 45"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0108"
+            },
+            "distancia": {
+              "doubleValue": 0.8
+            },
+            "avaliacao": {
+              "doubleValue": 4.7
+            },
+            "totalAvaliacoes": {
+              "integerValue": "42"
+            },
+            "mapY": {
+              "doubleValue": 0.69
+            }
+          },
+          "createTime": "2026-10-08T18:37:12.191509Z",
+          "updateTime": "2026-10-08T18:37:12.191509Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-hospital-central",
+          "fields": {
+            "favorito": {
+              "booleanValue": false
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "categoria": {
+              "stringValue": "Hospital"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "53"
+            },
+            "horario": {
+              "stringValue": "24 horas"
+            },
+            "nome": {
+              "stringValue": "Hospital Central"
+            },
+            "descricao": {
+              "stringValue": "Local de exemplo para consultas e atendimento hospitalar."
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "mapX": {
+              "doubleValue": 0.37
+            },
+            "mapY": {
+              "doubleValue": 0.34
+            },
+            "avaliacao": {
+              "doubleValue": 4.1
+            },
+            "distancia": {
+              "integerValue": "2"
+            },
+            "endereco": {
+              "stringValue": "Avenida da Saúde, 200"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0107"
+            }
+          },
+          "createTime": "2026-10-08T18:37:11.910704Z",
+          "updateTime": "2026-10-08T18:37:11.910704Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-iron-gym",
+          "fields": {
+            "endereco": {
+              "stringValue": "Rua do Comércio, 520"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0105"
+            },
+            "nome": {
+              "stringValue": "Iron Gym"
+            },
+            "distancia": {
+              "doubleValue": 5.2
+            },
+            "avaliacao": {
+              "doubleValue": 4.2
+            },
+            "mapX": {
+              "doubleValue": 0.41
+            },
+            "totalAvaliacoes": {
+              "integerValue": "85"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "mapY": {
+              "doubleValue": 0.71
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "horario": {
+              "stringValue": "05:30 - 23:00"
+            },
+            "descricao": {
+              "stringValue": "Academia com pesos livres, equipamentos de força e treinos funcionais."
+            },
+            "favorito": {
+              "booleanValue": false
+            }
+          },
+          "createTime": "2026-10-08T18:37:10.986928Z",
+          "updateTime": "2026-10-08T18:37:10.986928Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-livraria-central",
+          "fields": {
+            "distancia": {
+              "doubleValue": 2.3
+            },
+            "avaliacao": {
+              "doubleValue": 4.6
+            },
+            "horario": {
+              "stringValue": "09:00 - 19:00"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "58"
+            },
+            "nome": {
+              "stringValue": "Livraria Central"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0110"
+            },
+            "endereco": {
+              "stringValue": "Rua Central, 310"
+            },
+            "mapX": {
+              "doubleValue": 0.65
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "descricao": {
+              "stringValue": "Livros para explorar e um espaço tranquilo para ler."
+            },
+            "mapY": {
+              "doubleValue": 0.85
+            },
+            "categoria": {
+              "stringValue": "Livraria"
+            }
+          },
+          "createTime": "2026-10-08T18:37:13.136136Z",
+          "updateTime": "2026-10-08T18:37:13.136136Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-parque-da-cidade",
+          "fields": {
+            "categoria": {
+              "stringValue": "Parque"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "180"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "mapY": {
+              "doubleValue": 0.83
+            },
+            "descricao": {
+              "stringValue": "Área verde com caminhos para passear, correr e descansar."
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "horario": {
+              "stringValue": "06:00 - 18:00"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "endereco": {
+              "stringValue": "Avenida do Parque, 200"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0109"
+            },
+            "mapX": {
+              "doubleValue": 0.16
+            },
+            "nome": {
+              "stringValue": "Parque da Cidade"
+            },
+            "distancia": {
+              "doubleValue": 1.5
+            },
+            "avaliacao": {
+              "doubleValue": 4.9
+            }
+          },
+          "createTime": "2026-10-08T18:37:12.848976Z",
+          "updateTime": "2026-10-08T18:37:12.848976Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-proforma-academia",
+          "fields": {
+            "descricao": {
+              "stringValue": "Treinos orientados, aulas coletivas e acompanhamento para seus objetivos."
+            },
+            "endereco": {
+              "stringValue": "Rua da Praça, 470"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0104"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "mapY": {
+              "doubleValue": 0.5
+            },
+            "totalAvaliacoes": {
+              "integerValue": "64"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "avaliacao": {
+              "integerValue": "4"
+            },
+            "distancia": {
+              "doubleValue": 4.7
+            },
+            "mapX": {
+              "doubleValue": 0.73
+            },
+            "horario": {
+              "stringValue": "07:00 - 22:00"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "nome": {
+              "stringValue": "Proforma Academia"
+            }
+          },
+          "createTime": "2026-10-08T18:37:10.316600Z",
+          "updateTime": "2026-10-08T18:37:10.316600Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-restaurante-verde",
+          "fields": {
+            "horario": {
+              "stringValue": "11:00 - 22:00"
+            },
+            "nome": {
+              "stringValue": "Restaurante Verde"
+            },
+            "mapX": {
+              "doubleValue": 0.6
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "72"
+            },
+            "categoria": {
+              "stringValue": "Restaurante"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "descricao": {
+              "stringValue": "Pratos frescos e opções vegetarianas para almoço e jantar."
+            },
+            "endereco": {
+              "stringValue": "Rua do Comércio, 88"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0106"
+            },
+            "distancia": {
+              "doubleValue": 1.8
+            },
+            "avaliacao": {
+              "doubleValue": 4.6
+            },
+            "mapY": {
+              "doubleValue": 0.28
+            }
+          },
+          "createTime": "2026-10-08T18:37:11.253062Z",
+          "updateTime": "2026-10-08T18:37:11.253062Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-smart-fit",
+          "fields": {
+            "mapX": {
+              "doubleValue": 0.82
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "distancia": {
+              "doubleValue": 2.4
+            },
+            "avaliacao": {
+              "doubleValue": 4.5
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "nome": {
+              "stringValue": "Smart Fit"
+            },
+            "endereco": {
+              "stringValue": "Avenida Central, 240"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0102"
+            },
+            "descricao": {
+              "stringValue": "Espaço de treino com aparelhos de musculação e área para exercícios aeróbicos."
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "horario": {
+              "stringValue": "06:00 - 23:00"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "96"
+            },
+            "mapY": {
+              "doubleValue": 0.15
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            }
+          },
+          "createTime": "2026-10-08T18:37:09.374502Z",
+          "updateTime": "2026-10-08T18:37:09.374502Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/yDjoTtVJCgjyfTkszpDl",
+          "fields": {
+            "favorito": {
+              "booleanValue": false
+            },
+            "categoria": {
+              "stringValue": ""
+            },
+            "avaliacao": {
+              "integerValue": "0"
+            },
+            "descricao": {
+              "stringValue": ""
+            },
+            "distancia": {
+              "doubleValue": 0
+            },
+            "nome": {
+              "stringValue": ""
+            },
+            "horario": {
+              "stringValue": ""
+            },
+            "cidade": {
+              "stringValue": ""
+            }
+          },
+          "createTime": "2026-10-08T17:34:20.745746Z",
+          "updateTime": "2026-10-08T17:34:20.745746Z"
+        }
+      ]
+    }
+  },
+  "anonymousRead": {
+    "httpStatus": 200,
+    "body": {
+      "documents": [
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-academia-movimento",
+          "fields": {
+            "cidade": {
+              "stringValue": "Campinas"
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0201"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "67"
+            },
+            "distancia": {
+              "integerValue": "1"
+            },
+            "descricao": {
+              "stringValue": "Espaço para musculação, aulas em grupo e treinos funcionais."
+            },
+            "nome": {
+              "stringValue": "Academia Movimento"
+            },
+            "mapY": {
+              "doubleValue": 0.17
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "avaliacao": {
+              "doubleValue": 4.6
+            },
+            "endereco": {
+              "stringValue": "Rua do Sol, 120"
+            },
+            "mapX": {
+              "doubleValue": 0.17
+            },
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "favorito": {
+              "booleanValue": false
+            }
+          },
+          "createTime": "2026-10-08T18:37:13.758523Z",
+          "updateTime": "2026-10-08T18:37:13.758523Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-cafe-da-praca",
+          "fields": {
+            "endereco": {
+              "stringValue": "Avenida da Praça, 45"
+            },
+            "descricao": {
+              "stringValue": "Café fresco, bolos e lanches para uma pausa na rotina."
+            },
+            "distancia": {
+              "doubleValue": 1.3
+            },
+            "mapX": {
+              "doubleValue": 0.82
+            },
+            "cidade": {
+              "stringValue": "Campinas"
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0202"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "categoria": {
+              "stringValue": "Café"
+            },
+            "avaliacao": {
+              "doubleValue": 4.7
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "totalAvaliacoes": {
+              "integerValue": "31"
+            },
+            "mapY": {
+              "doubleValue": 0.15
+            },
+            "horario": {
+              "stringValue": "08:00 - 20:00"
+            },
+            "nome": {
+              "stringValue": "Café da Praça"
+            }
+          },
+          "createTime": "2026-10-08T18:37:14.053518Z",
+          "updateTime": "2026-10-08T18:37:14.053518Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-parque-das-palmeiras",
+          "fields": {
+            "descricao": {
+              "stringValue": "Caminhos arborizados e área de descanso ao ar livre."
+            },
+            "distancia": {
+              "doubleValue": 2.1
+            },
+            "horario": {
+              "stringValue": "06:00 - 18:00"
+            },
+            "cidade": {
+              "stringValue": "Campinas"
+            },
+            "categoria": {
+              "stringValue": "Parque"
+            },
+            "avaliacao": {
+              "doubleValue": 4.8
+            },
+            "mapX": {
+              "doubleValue": 0.22
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0203"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "totalAvaliacoes": {
+              "integerValue": "112"
+            },
+            "endereco": {
+              "stringValue": "Rua das Palmeiras, 200"
+            },
+            "nome": {
+              "stringValue": "Parque das Palmeiras"
+            },
+            "mapY": {
+              "doubleValue": 0.48
+            }
+          },
+          "createTime": "2026-10-08T18:37:14.690056Z",
+          "updateTime": "2026-10-08T18:37:14.690056Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-campinas-restaurante-da-vila",
+          "fields": {
+            "avaliacao": {
+              "doubleValue": 4.5
+            },
+            "categoria": {
+              "stringValue": "Restaurante"
+            },
+            "mapX": {
+              "doubleValue": 0.73
+            },
+            "endereco": {
+              "stringValue": "Rua da Vila, 88"
+            },
+            "horario": {
+              "stringValue": "11:00 - 22:00"
+            },
+            "descricao": {
+              "stringValue": "Comida caseira e pratos do dia em ambiente acolhedor."
+            },
+            "distancia": {
+              "doubleValue": 2.8
+            },
+            "telefone": {
+              "stringValue": "(19) 3000-0204"
+            },
+            "cidade": {
+              "stringValue": "Campinas"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapY": {
+              "doubleValue": 0.5
+            },
+            "nome": {
+              "stringValue": "Restaurante da Vila"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "49"
+            }
+          },
+          "createTime": "2026-10-08T18:37:14.986619Z",
+          "updateTime": "2026-10-08T18:37:14.986619Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-academia-energia",
+          "fields": {
+            "telefone": {
+              "stringValue": "(11) 3000-0301"
+            },
+            "mapX": {
+              "doubleValue": 0.17
+            },
+            "endereco": {
+              "stringValue": "Rua das Acácias, 120"
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "totalAvaliacoes": {
+              "integerValue": "55"
+            },
+            "nome": {
+              "stringValue": "Academia Energia"
+            },
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "distancia": {
+              "doubleValue": 0.9
+            },
+            "descricao": {
+              "stringValue": "Musculação e aulas coletivas com orientação para iniciantes."
+            },
+            "mapY": {
+              "doubleValue": 0.17
+            },
+            "avaliacao": {
+              "doubleValue": 4.7
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "favorito": {
+              "booleanValue": false
+            }
+          },
+          "createTime": "2026-10-08T18:37:15.660574Z",
+          "updateTime": "2026-10-08T18:37:15.660574Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-cafe-mineiro",
+          "fields": {
+            "totalAvaliacoes": {
+              "integerValue": "37"
+            },
+            "mapY": {
+              "doubleValue": 0.15
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0302"
+            },
+            "distancia": {
+              "doubleValue": 1.2
+            },
+            "descricao": {
+              "stringValue": "Café, pão de queijo e lanches preparados na hora."
+            },
+            "nome": {
+              "stringValue": "Café Mineiro"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "endereco": {
+              "stringValue": "Rua da Serra, 45"
+            },
+            "avaliacao": {
+              "doubleValue": 4.8
+            },
+            "categoria": {
+              "stringValue": "Café"
+            },
+            "mapX": {
+              "doubleValue": 0.82
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "horario": {
+              "stringValue": "08:00 - 20:00"
+            }
+          },
+          "createTime": "2026-10-08T18:37:15.914337Z",
+          "updateTime": "2026-10-08T18:37:15.914337Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-parque-do-lago",
+          "fields": {
+            "telefone": {
+              "stringValue": "(11) 3000-0303"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "horario": {
+              "stringValue": "06:00 - 18:00"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "143"
+            },
+            "endereco": {
+              "stringValue": "Avenida do Lago, 200"
+            },
+            "mapX": {
+              "doubleValue": 0.22
+            },
+            "avaliacao": {
+              "doubleValue": 4.9
+            },
+            "categoria": {
+              "stringValue": "Parque"
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "distancia": {
+              "doubleValue": 1.6
+            },
+            "descricao": {
+              "stringValue": "Área verde com lago, caminhos de passeio e bancos para descansar."
+            },
+            "nome": {
+              "stringValue": "Parque do Lago"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapY": {
+              "doubleValue": 0.48
+            }
+          },
+          "createTime": "2026-10-08T18:37:16.577649Z",
+          "updateTime": "2026-10-08T18:37:16.577649Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-jundiai-restaurante-da-praca",
+          "fields": {
+            "mapY": {
+              "doubleValue": 0.5
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "nome": {
+              "stringValue": "Restaurante da Praça"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapX": {
+              "doubleValue": 0.73
+            },
+            "distancia": {
+              "doubleValue": 2.2
+            },
+            "descricao": {
+              "stringValue": "Pratos caseiros e opções para o almoço e o jantar."
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0304"
+            },
+            "horario": {
+              "stringValue": "11:00 - 22:00"
+            },
+            "cidade": {
+              "stringValue": "Jundiai"
+            },
+            "avaliacao": {
+              "doubleValue": 4.4
+            },
+            "categoria": {
+              "stringValue": "Restaurante"
+            },
+            "endereco": {
+              "stringValue": "Rua da Praça, 88"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "62"
+            }
+          },
+          "createTime": "2026-10-08T18:37:16.859083Z",
+          "updateTime": "2026-10-08T18:37:16.859083Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-academia-fitness",
+          "fields": {
+            "distancia": {
+              "doubleValue": 1.2
+            },
+            "descricao": {
+              "stringValue": "Academia completa com musculação, funcional, aulas coletivas e personal trainer. Ambiente moderno e bem equipado."
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapX": {
+              "doubleValue": 0.17
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "avaliacao": {
+              "doubleValue": 4.8
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "endereco": {
+              "stringValue": "Rua das Flores, 120"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "mapY": {
+              "doubleValue": 0.17
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0101"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "124"
+            },
+            "nome": {
+              "stringValue": "Academia Fitness"
+            }
+          },
+          "createTime": "2026-10-08T18:37:09.074511Z",
+          "updateTime": "2026-10-08T18:37:09.074511Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-body-center",
+          "fields": {
+            "horario": {
+              "stringValue": "06:00 - 22:00"
+            },
+            "avaliacao": {
+              "doubleValue": 4.3
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "78"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "distancia": {
+              "doubleValue": 3.1
+            },
+            "descricao": {
+              "stringValue": "Musculação, alongamento e aulas em grupo para diferentes níveis de treino."
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapX": {
+              "doubleValue": 0.22
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0103"
+            },
+            "endereco": {
+              "stringValue": "Rua dos Pinheiros, 310"
+            },
+            "nome": {
+              "stringValue": "Body Center"
+            },
+            "mapY": {
+              "doubleValue": 0.48
+            }
+          },
+          "createTime": "2026-10-08T18:37:10.017685Z",
+          "updateTime": "2026-10-08T18:37:10.017685Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-cafe-da-esquina",
+          "fields": {
+            "telefone": {
+              "stringValue": "(11) 3000-0108"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "horario": {
+              "stringValue": "08:00 - 20:00"
+            },
+            "mapX": {
+              "doubleValue": 0.83
+            },
+            "endereco": {
+              "stringValue": "Rua dos Pinheiros, 45"
+            },
+            "categoria": {
+              "stringValue": "Café"
+            },
+            "avaliacao": {
+              "doubleValue": 4.7
+            },
+            "totalAvaliacoes": {
+              "integerValue": "42"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "descricao": {
+              "stringValue": "Cafés, lanches e mesas para uma pausa durante o dia."
+            },
+            "distancia": {
+              "doubleValue": 0.8
+            },
+            "nome": {
+              "stringValue": "Café da Esquina"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapY": {
+              "doubleValue": 0.69
+            }
+          },
+          "createTime": "2026-10-08T18:37:12.191509Z",
+          "updateTime": "2026-10-08T18:37:12.191509Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-hospital-central",
+          "fields": {
+            "categoria": {
+              "stringValue": "Hospital"
+            },
+            "avaliacao": {
+              "doubleValue": 4.1
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "mapX": {
+              "doubleValue": 0.37
+            },
+            "distancia": {
+              "integerValue": "2"
+            },
+            "descricao": {
+              "stringValue": "Local de exemplo para consultas e atendimento hospitalar."
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "totalAvaliacoes": {
+              "integerValue": "53"
+            },
+            "nome": {
+              "stringValue": "Hospital Central"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "mapY": {
+              "doubleValue": 0.34
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0107"
+            },
+            "horario": {
+              "stringValue": "24 horas"
+            },
+            "endereco": {
+              "stringValue": "Avenida da Saúde, 200"
+            }
+          },
+          "createTime": "2026-10-08T18:37:11.910704Z",
+          "updateTime": "2026-10-08T18:37:11.910704Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-iron-gym",
+          "fields": {
+            "mapX": {
+              "doubleValue": 0.41
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0105"
+            },
+            "endereco": {
+              "stringValue": "Rua do Comércio, 520"
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "avaliacao": {
+              "doubleValue": 4.2
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "nome": {
+              "stringValue": "Iron Gym"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "mapY": {
+              "doubleValue": 0.71
+            },
+            "distancia": {
+              "doubleValue": 5.2
+            },
+            "descricao": {
+              "stringValue": "Academia com pesos livres, equipamentos de força e treinos funcionais."
+            },
+            "totalAvaliacoes": {
+              "integerValue": "85"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "horario": {
+              "stringValue": "05:30 - 23:00"
+            }
+          },
+          "createTime": "2026-10-08T18:37:10.986928Z",
+          "updateTime": "2026-10-08T18:37:10.986928Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-livraria-central",
+          "fields": {
+            "telefone": {
+              "stringValue": "(11) 3000-0110"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "58"
+            },
+            "horario": {
+              "stringValue": "09:00 - 19:00"
+            },
+            "endereco": {
+              "stringValue": "Rua Central, 310"
+            },
+            "mapX": {
+              "doubleValue": 0.65
+            },
+            "distancia": {
+              "doubleValue": 2.3
+            },
+            "descricao": {
+              "stringValue": "Livros para explorar e um espaço tranquilo para ler."
+            },
+            "nome": {
+              "stringValue": "Livraria Central"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "avaliacao": {
+              "doubleValue": 4.6
+            },
+            "categoria": {
+              "stringValue": "Livraria"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "mapY": {
+              "doubleValue": 0.85
+            },
+            "fotos": {
+              "arrayValue": {}
+            }
+          },
+          "createTime": "2026-10-08T18:37:13.136136Z",
+          "updateTime": "2026-10-08T18:37:13.136136Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-parque-da-cidade",
+          "fields": {
+            "distancia": {
+              "doubleValue": 1.5
+            },
+            "descricao": {
+              "stringValue": "Área verde com caminhos para passear, correr e descansar."
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0109"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "180"
+            },
+            "avaliacao": {
+              "doubleValue": 4.9
+            },
+            "categoria": {
+              "stringValue": "Parque"
+            },
+            "mapY": {
+              "doubleValue": 0.83
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "horario": {
+              "stringValue": "06:00 - 18:00"
+            },
+            "endereco": {
+              "stringValue": "Avenida do Parque, 200"
+            },
+            "nome": {
+              "stringValue": "Parque da Cidade"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapX": {
+              "doubleValue": 0.16
+            },
+            "fotos": {
+              "arrayValue": {}
+            }
+          },
+          "createTime": "2026-10-08T18:37:12.848976Z",
+          "updateTime": "2026-10-08T18:37:12.848976Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-proforma-academia",
+          "fields": {
+            "favorito": {
+              "booleanValue": false
+            },
+            "mapX": {
+              "doubleValue": 0.73
+            },
+            "endereco": {
+              "stringValue": "Rua da Praça, 470"
+            },
+            "horario": {
+              "stringValue": "07:00 - 22:00"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "avaliacao": {
+              "integerValue": "4"
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0104"
+            },
+            "mapY": {
+              "doubleValue": 0.5
+            },
+            "nome": {
+              "stringValue": "Proforma Academia"
+            },
+            "distancia": {
+              "doubleValue": 4.7
+            },
+            "descricao": {
+              "stringValue": "Treinos orientados, aulas coletivas e acompanhamento para seus objetivos."
+            },
+            "totalAvaliacoes": {
+              "integerValue": "64"
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            }
+          },
+          "createTime": "2026-10-08T18:37:10.316600Z",
+          "updateTime": "2026-10-08T18:37:10.316600Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-restaurante-verde",
+          "fields": {
+            "categoria": {
+              "stringValue": "Restaurante"
+            },
+            "avaliacao": {
+              "doubleValue": 4.6
+            },
+            "mapY": {
+              "doubleValue": 0.28
+            },
+            "endereco": {
+              "stringValue": "Rua do Comércio, 88"
+            },
+            "horario": {
+              "stringValue": "11:00 - 22:00"
+            },
+            "nome": {
+              "stringValue": "Restaurante Verde"
+            },
+            "descricao": {
+              "stringValue": "Pratos frescos e opções vegetarianas para almoço e jantar."
+            },
+            "distancia": {
+              "doubleValue": 1.8
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0106"
+            },
+            "totalAvaliacoes": {
+              "integerValue": "72"
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "mapX": {
+              "doubleValue": 0.6
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "favorito": {
+              "booleanValue": false
+            }
+          },
+          "createTime": "2026-10-08T18:37:11.253062Z",
+          "updateTime": "2026-10-08T18:37:11.253062Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/seed-sp-smart-fit",
+          "fields": {
+            "endereco": {
+              "stringValue": "Avenida Central, 240"
+            },
+            "distancia": {
+              "doubleValue": 2.4
+            },
+            "descricao": {
+              "stringValue": "Espaço de treino com aparelhos de musculação e área para exercícios aeróbicos."
+            },
+            "telefone": {
+              "stringValue": "(11) 3000-0102"
+            },
+            "mapY": {
+              "doubleValue": 0.15
+            },
+            "categoria": {
+              "stringValue": "Academia"
+            },
+            "avaliacao": {
+              "doubleValue": 4.5
+            },
+            "nome": {
+              "stringValue": "Smart Fit"
+            },
+            "horario": {
+              "stringValue": "06:00 - 23:00"
+            },
+            "favorito": {
+              "booleanValue": false
+            },
+            "cidade": {
+              "stringValue": "São Paulo"
+            },
+            "mapX": {
+              "doubleValue": 0.82
+            },
+            "fotos": {
+              "arrayValue": {}
+            },
+            "totalAvaliacoes": {
+              "integerValue": "96"
+            }
+          },
+          "createTime": "2026-10-08T18:37:09.374502Z",
+          "updateTime": "2026-10-08T18:37:09.374502Z"
+        },
+        {
+          "name": "projects/mapa-locais-flutter/databases/(default)/documents/locais/yDjoTtVJCgjyfTkszpDl",
+          "fields": {
+            "nome": {
+              "stringValue": ""
+            },
+            "distancia": {
+              "doubleValue": 0
+            },
+            "descricao": {
+              "stringValue": ""
+            },
+            "avaliacao": {
+              "integerValue": "0"
+            },
+            "categoria": {
+              "stringValue": ""
+            },
+            "cidade": {
+              "stringValue": ""
+            },
+            "horario": {
+              "stringValue": ""
+            },
+            "favorito": {
+              "booleanValue": false
+            }
+          },
+          "createTime": "2026-10-08T17:34:20.745746Z",
+          "updateTime": "2026-10-08T17:34:20.745746Z"
+        }
+      ]
+    }
+  },
+  "rulesRelease": {
+    "httpStatus": 200,
+    "body": {
+      "name": "projects/mapa-locais-flutter/releases/cloud.firestore",
+      "rulesetName": "projects/mapa-locais-flutter/rulesets/df760284-b34f-43ff-8213-8e99b3d5c4f8",
+      "createTime": "2026-10-08T17:32:16.882211Z",
+      "updateTime": "2026-10-08T17:32:16.882211Z"
+    }
+  },
+  "ruleset": {
+    "httpStatus": 200,
+    "body": {
+      "name": "projects/mapa-locais-flutter/rulesets/df760284-b34f-43ff-8213-8e99b3d5c4f8",
+      "source": {
+        "files": [
+          {
+            "content": "rules_version = '2';\n\nservice cloud.firestore {\n  match /databases/{database}/documents {\n\n    // This rule allows anyone with your Firestore database reference to view, edit,\n    // and delete all data in your Firestore database. It is useful for getting\n    // started, but it is configured to expire after 30 days because it\n    // leaves your app open to attackers. At that time, all client\n    // requests to your Firestore database will be denied.\n    //\n    // Make sure to write security rules for your app before that time, or else\n    // all client requests to your Firestore database will be denied until you Update\n    // your rules\n    match /{document=**} {\n      allow read, write: if request.time < timestamp.date(2026, 11, 7);\n    }\n  }\n}",
+            "name": "firestore.rules"
+          }
+        ]
+      },
+      "createTime": "2026-10-08T17:32:16.225555Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "projectId": "mapa-locais-flutter",
+  "checkedAt": "2026-10-08T18:37:19.005Z",
+  "connection": "REST Firestore sem autenticação (mesmas regras usadas pelo aplicativo sem Firebase Auth)",
+  "seed": {
+    "created": [
+      "seed-sp-academia-fitness",
+      "seed-sp-smart-fit",
+      "seed-sp-body-center",
+      "seed-sp-proforma-academia",
+      "seed-sp-iron-gym",
+      "seed-sp-restaurante-verde",
+      "seed-sp-hospital-central",
+      "seed-sp-cafe-da-esquina",
+      "seed-sp-parque-da-cidade",
+      "seed-sp-livraria-central",
+      "seed-campinas-academia-movimento",
+      "seed-campinas-cafe-da-praca",
+      "seed-campinas-parque-das-palmeiras",
+      "seed-campinas-restaurante-da-vila",
+      "seed-jundiai-academia-energia",
+      "seed-jundiai-cafe-mineiro",
+      "seed-jundiai-parque-do-lago",
+      "seed-jundiai-restaurante-da-praca"
+    ],
+    "preserved": [],
+    "checkedAt": "2026-10-08T18:37:10.535Z"
+  },
+  "temporaryDocumentId": "verificacao-checklist-1791484639005",
+  "checks": {
+    "create": {
+      "passed": true,
+      "updateTime": "2026-10-08T18:37:17.483493Z"
+    },
+    "read": {
+      "passed": true
+    },
+    "update": {
+      "passed": true,
+      "updateTime": "2026-10-08T18:37:18.402903Z"
+    },
+    "favorite": {
+      "passed": true
+    },
+    "delete": {
+      "passed": true,
+      "httpStatus": 404
+    }
+  },
+  "finalCollectionCount": 19,
+  "nonEmptyDocumentCount": 18
+}
